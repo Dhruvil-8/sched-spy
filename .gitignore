@@ -1,0 +1,9 @@
+sched-spy
+sched-spy-debug
+test/test_correlator
+test/test_metrics
+test/test_ring_queue
+test/test_tracefs_parser
+*.exe
+*.o
+*.log
