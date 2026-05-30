@@ -1,8 +1,5 @@
 # sched-spy
 
-> [!NOTE]
-> **Project Status: Archived**  .
-
 `sched-spy` measures Linux scheduler latency: the time between a task becoming runnable and the scheduler actually running it.
 
 This implementation is intentionally dependency-light C. It currently ships a complete tracefs reader, parser, correlator, metrics store, terminal view, JSON output, a small `/metrics` HTTP endpoint, and unit tests. `perf_event_open` probing is present, but the binary perf ring-buffer reader falls back to tracefs until that backend is completed.
